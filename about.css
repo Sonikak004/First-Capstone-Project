@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
   margin: 0;
@@ -104,6 +105,11 @@ h1 {
   margin-left: 30px;
   color: #616161;
   align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.main-para-desk {
+  display: none;
 }
 
 .main-para2 {
@@ -155,7 +161,7 @@ li a:hover {
 }
 
 .goal-line {
-  background-color: #ae4137;
+  background-color: #f83c22;
   width: 29px;
 }
 
@@ -345,14 +351,37 @@ footer {
     display: none;
   }
 
+  h1 {
+    padding-top: 20px;
+    font-size: 48px;
+  }
+
+  .line-div {
+    display: flex;
+  }
+
   .main-para-div {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .main-para {
-    width: 35%;
+    width: 54%;
+    margin-bottom: 0;
     font-size: 13px;
+    background-color: #ebebeb;
+  }
+
+  .main-para-desk {
+    display: flex;
+    color: #616161;
+    font-family: 'Lato', sans-serif;
+    width: 41%;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 13px;
+    background-color: #ebebeb;
   }
 
   .main-para2 {
@@ -361,6 +390,10 @@ footer {
 
   .home-p {
     font-size: 13px;
+  }
+
+  .head-para {
+    display: none;
   }
 
   .event-div {
@@ -416,10 +449,22 @@ footer {
     flex-direction: column-reverse;
   }
 
+  .main-home {
+    margin-top: 90px;
+  }
+
+  #home {
+    margin-top: 43px;
+  }
+
   .bg-sec {
-    background-size: 117%;
+    background-size: 130%;
     background-image: url(./assets/Header-bg.png);
     background-repeat: repeat-y;
+  }
+
+  .mobile-bg {
+    background-size: 69%;
   }
 
   .loggo-div img {

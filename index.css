@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
   margin: 0;
@@ -105,6 +106,7 @@ h1 {
   display: flex;
   height: 115px;
   margin-right: 35px;
+  font-family: 'Lato', sans-serif;
   margin-left: 28px;
   color: #5a5a5a;
   align-items: flex-end;
@@ -140,12 +142,12 @@ main {
 }
 
 .goal-line {
-  background-color: #ae4137;
+  background-color: #f83c22;
   width: 29px;
 }
 
 .guest-line {
-  background-color: #ae4137;
+  background-color: #f83c22;
   width: 29px;
   display: flex;
   justify-content: center;
@@ -541,6 +543,7 @@ footer {
     width: 54%;
     align-items: center;
     font-size: 12px;
+    background-color: #ebebeb;
   }
 
   main {
