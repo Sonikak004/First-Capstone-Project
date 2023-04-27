@@ -47,9 +47,15 @@ li a {
   justify-content: center;
 }
 
+li a:hover {
+  color: #ec5242;
+  text-decoration: none;
+}
+
 #close-menu {
   width: 42px;
   margin-left: 27px;
+  list-style: none;
 }
 
 .menuBar {
@@ -59,6 +65,10 @@ li a {
   margin-left: 28px;
   color: #3e3e3e;
   align-items: flex-end;
+}
+
+.fa-bars:hover {
+  color: #ff5400;
 }
 
 #desktop-nav-bar {
