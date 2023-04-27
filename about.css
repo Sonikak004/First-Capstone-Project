@@ -47,11 +47,6 @@ li a {
   justify-content: center;
 }
 
-li a:hover {
-  color: #ec5242;
-  text-decoration: none;
-}
-
 #close-menu {
   width: 42px;
   margin-left: 27px;
@@ -123,6 +118,11 @@ h1 {
 p > a {
   color: #232020;
   text-decoration-line: underline;
+}
+
+li a:hover {
+  color: #ec5242;
+  text-decoration: none;
 }
 
 .mainp-div {
