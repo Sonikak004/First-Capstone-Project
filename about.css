@@ -18,9 +18,6 @@ body {
 
 header {
   font-family: "lato", sans-serif;
-  background-size: 117%;
-  background-image: url(./assets/Header-bg.png);
-  background-repeat: no-repeat;
 }
 
 .darknav {
@@ -34,6 +31,12 @@ header {
   z-index: 98;
   width: 100%;
   background-color: #3e3e3e;
+}
+
+.mobile-bg {
+  background-size: 170%;
+  background-image: url(./assets/Header-bg.png);
+  background-repeat: repeat-y;
 }
 
 li {
@@ -404,6 +407,12 @@ footer {
     flex-direction: column-reverse;
   }
 
+  .bg-sec {
+    background-size: 117%;
+    background-image: url(./assets/Header-bg.png);
+    background-repeat: repeat-y;
+  }
+  
   .loggo-div img {
     width: 40px;
     height: 40px;
