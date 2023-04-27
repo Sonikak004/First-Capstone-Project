@@ -33,7 +33,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live Demo](https://sonikak004.github.io/Capstone-Project-One/)
+[Live Demo](https://sonikak004.github.io/First-Capstone-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
