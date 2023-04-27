@@ -351,7 +351,16 @@ footer {
   }
 
   .main-para {
-    width: 30%;
+    width: 35%;
+    font-size: 13px;
+  }
+
+  .main-para2 {
+    font-size: 13px;
+  }
+
+  .home-p {
+    font-size: 13px;
   }
 
   .event-div {
